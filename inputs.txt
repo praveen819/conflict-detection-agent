@@ -1,0 +1,8 @@
+The system must allow guest users to access all features.
+Only registered users can access premium features.
+
+Users can delete their account.
+Deleted accounts must retain all data.
+
+Admins can modify user roles.
+Admins are not allowed to change permissions.
