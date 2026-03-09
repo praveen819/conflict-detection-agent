@@ -15,9 +15,13 @@ User Input → Batch Processor → LLM Conflict Detector → JSON Output
 
 ## Tech Stack
 
-- Python
-- Ollama (LLaMA3)
-- Requests
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![LLM](https://img.shields.io/badge/LLM-Large%20Language%20Model-purple)
+![AI](https://img.shields.io/badge/AI-Artificial%20Intelligence-orange)
+![Ollama](https://img.shields.io/badge/Ollama-Local%20LLM-black)
+![NLP](https://img.shields.io/badge/NLP-Natural%20Language%20Processing-blueviolet)
 
 ## Project Structure
 
