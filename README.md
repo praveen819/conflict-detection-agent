@@ -1,28 +1,65 @@
 # Conflict Detection AI Agent
 
-This project detects logical contradictions in text using a local LLaMA model via Ollama.
+An AI-powered tool that detects logical contradictions in text using a local LLaMA model via Ollama.
 
 ## Features
-- Batch text processing
-- AI-powered conflict detection
-- Structured JSON outputs
-- Runs locally with Ollama
+
+- Detects contradictions in natural language text
+- Batch processing of multiple inputs
+- Structured JSON output
+- Runs locally using LLaMA (no external API)
+
+## Architecture
+
+User Input → Batch Processor → LLM Conflict Detector → JSON Output
 
 ## Tech Stack
+
 - Python
 - Ollama (LLaMA3)
 - Requests
 
-## Run the project
+## Project Structure
 
-Start Ollama:
+Conflict_agent/
+│
+├── main.py
+├── batch_processor.py
+├── detector.py
+├── inputs.txt
+├── requirements.txt
 
-ollama serve
+## Installation
 
-Install dependencies:
+Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/conflict-detection-agent.git
+
+Install dependencies
 
 pip install -r requirements.txt
 
-Run:
+Start Ollama
+
+ollama serve
+
+Run the project
 
 python main.py
+
+## Example Input
+
+The system must allow guest users to access all features.
+Only registered users can access premium features.
+
+## Example Output
+
+{
+  "conflicts": [
+    {
+      "statement_1": "...",
+      "statement_2": "...",
+      "severity": "high"
+    }
+  ]
+}
